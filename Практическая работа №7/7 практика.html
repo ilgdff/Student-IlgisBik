@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практика 7</title>
+</head>
+<body>
+    <script>
+        var otgadka = 0;
+alert("Что становится больше, если его перевернуть вверх ногами?");
+var otvet = 6;
+var otvet1 = prompt("Ответ на загадку 1");
+
+if (otvet == otvet1) { 
+    alert("Правильно!"); 
+    var otgadka =otgadka + 1; // + счетчик отгаданных загадок
+} else {
+    alert("Не правильно!"); 
+};
+//Вторая загадка
+alert("Сколько минут в одном часе?");
+var otvet1 = prompt("Ответ на загадку 2");
+var otvet = 60;
+
+if (otvet == otvet1) {
+    alert("Правильно!");
+    var otgadka = otgadka + 1; // + счетчик отгаданных загадок
+} else {
+    alert("Не правильно!");
+};
+// Показываем количество отгаданных загадок
+alert("количество отгаданных загадок = " + otgadka);
+// Цикл от 1 до 10
+for (i = 1; i < 11; i++) {
+    alert(i); // Выводим числа
+}
+// объявляем переменной для цикла while
+var z = 0;
+
+while (o != 1) {
+    var o = prompt("Ещё по одной? Введите единицу");
+};
+
+let surname = prompt("Введите вашу фамилию:");
+let reversedSurname = surname.split('').reverse().join('');
+// проверкв, является ли фамилия палиндромом
+if (surname.toLowerCase() === reversedSurname.toLowerCase()) {
+    alert("Ваша фамилия - палиндром");
+} else {
+    alert("Ваша фамилия - не палиндром");
+} 
+var MoyNomer = prompt("Введите свой номер фамилии по журналу");
+// вычисляем факториал
+var factorial = 1;
+for (let i = MoyNomer; i > 0; i--) { 
+    factorial = factorial * i; // умножаем текущий факториал на число
+};
+// Показываем результат вычисления факториала
+alert("Факториал номера в списке:" + factorial); 
+
+    </script>
+</body>
+
+</html>
