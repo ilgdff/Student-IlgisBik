@@ -1,0 +1,12 @@
+index/style - ГЛАВНАЯ СТРАНИЦА
+index1/style1 - ВЕЛИКИЕ МУЗЕИ
+index2/style2 - СТАТЬИ
+index3/style3 - ЖИВОПИСЬ > РУССКАЯ ЖИВОПИСЬ
+index4/style4 - ЖИВОПИСЬ > ИСПАНСКАЯ ЖИВОПИСЬ
+index5/style5 - ЖИВОПИСЬ > ИТАЛЬЯНСКАЯ ЖИВОПИСЬ
+index6/style6 - ЖИВОПИСЬ > ГОЛАНДСКАЯ ЖИВОПИСЬ
+index7/style7 - СКУЛЬПТУРЫ
+index8/style8 - ГОРОДА > БАРСЕЛОНА
+index9/style9 - ГОРОДА > ЛОНДОН
+index10/style10 - ГОРОДА > МОСКВА
+index11/style11 - ГОРОДА > ПАРИЖ
