@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задания 2, 3 и 4</title>
+</head>
+<body>
+    <h1>Задания 2, 3 и 4 (консоль)</h1>
+    <script>
+        // Задание 2
+        const userInput = +prompt('Введите число от 0 до 9', '');
+        switch (userInput) {
+            case 1:
+                alert('Вы выбрали число 1');
+                break;
+            case 2:
+                alert('Вы выбрали число 2');
+                break;
+            case 3:
+                alert('Вы выбрали число 3');
+                break;
+            case 4:
+                alert('Вы выбрали число 4');
+                break;
+            case 5:
+                alert('Вы выбрали число 5');
+                break;
+            case 6:
+                alert('Вы выбрали число 6');
+                break;
+            case 7:
+                alert('Вы выбрали число 7');
+                break;
+            case 8:
+            case 9:
+                alert('Вы выбрали число 8 или 9');
+                break;
+            default:
+                alert('Некорректный ввод');
+        }
+
+        // Задание 3
+        const minutes = 17;
+        let timeQuarter;
+
+        if (minutes >= 0 && minutes <= 59) { 
+            switch (true) {
+                case (minutes >= 0 && minutes <= 14):
+                    timeQuarter = "Первая четверть часа";
+                    break;
+                case (minutes >= 15 && minutes <= 29):
+                    timeQuarter = "Вторая четверть часа";
+                    break;
+                case (minutes >= 30 && minutes <= 44):
+                    timeQuarter = "Третья четверть часа";
+                    break;
+                case (minutes >= 45 && minutes <= 59):
+                    timeQuarter = "Четвертая четверть часа";
+                    break;
+            }
+            console.log(`Минута ${minutes} попадает в ${timeQuarter}`);
+        } else {
+            console.log("Некорректное значение минут! Попробуйте снова!");
+        }
+
+        // Задание 4
+        const inputString = "66356351";
+        const myPhoneNumber = "1234567890";
+
+        if (inputString) {
+            let messageForDigits;
+            const firstCharacter = inputString.charAt(0);
+            
+            switch (firstCharacter) {
+                case '1':
+                case '2':
+                case '3':
+                    messageForDigits = 'Первая цифра 1, 2 или 3';
+                    break;
+                default:
+                    messageForDigits = 'Первая цифра не 1, 2 или 3';
+            }
+
+            const isPhoneNumberIncluded = inputString.includes(myPhoneNumber);
+            console.log(messageForDigits);
+            console.log("Номер телефона включен:", isPhoneNumberIncluded);
+        } else {
+            console.log("Строка пуста");
+        }
+    </script>
+</body>
+</html>
